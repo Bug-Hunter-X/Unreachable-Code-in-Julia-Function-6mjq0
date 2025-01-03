@@ -1,0 +1,2 @@
+# Unreachable Code in Julia
+This example demonstrates a common error in Julia: unreachable code due to an unconditional return statement within a conditional block.  The code after the `return` statement within the `if` block will never execute, leading to potential confusion and unintended behavior.  The solution shows how to restructure the code to remove the unreachable lines.
